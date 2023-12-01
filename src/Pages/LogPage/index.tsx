@@ -8,7 +8,7 @@ const queryClient = new QueryClient();
 
 export const LogsPageContainer = () => {
   const fetchMyData = async () => {
-    const response = await fetch("http://localhost:3001/data");
+    const response = await fetch("http://localhost:3001/logs");
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }

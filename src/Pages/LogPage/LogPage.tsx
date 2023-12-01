@@ -39,7 +39,9 @@ export const LogsPage = ({ logs }: LogsPageProps) => {
             edited. You can see their IP, Operating System accessed by, and the
             date the log was created. If you want to edit a file you can
             start&nbsp;
-            <Link onClick={goToEditPage}>here</Link>
+            <Link onClick={goToEditPage} style={{ cursor: "pointer" }}>
+              here
+            </Link>
           </Typography>
         </div>
 
